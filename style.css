@@ -54,12 +54,11 @@
 
 .banner {
   width: -webkit-fill-available;
-  height: -webkit-fill-available;
   background-image: url(/imgs/banner/Photo.png);
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-size: contain;
+  background-size: cover;
 }
 .banner__intro {
   display: flex;
@@ -105,5 +104,212 @@
   flex-direction: row;
   width: -webkit-fit-content;
   gap: 10px;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 93px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.project__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 700px;
+  align-self: center;
+}
+.project__title {
+  color: #292F36;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+}
+.project__description {
+  color: #4D5053;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.project__options {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.project__productLine {
+  display: flex;
+  flex-direction: row;
+  gap: 104px;
+}
+.project__product {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.project__productPhoto {
+  width: 398px;
+}
+.project__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.project__productText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.project__productTitle {
+  color: #292F36;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.5px;
+}
+.project__productDescription {
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+#product1 {
+  border-radius: 0 80px 0 0;
+}
+
+#product2 {
+  border-radius: 80px 0 0 0;
+}
+
+#product3 {
+  border-radius: 0 0 80px 0;
+}
+
+#product4 {
+  border-radius: 0 0 0 80px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F0EC;
+  width: 100vw;
+}
+.counter__content {
+  padding-top: 151px;
+  padding-bottom: 151px;
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+  text-align: center;
+  align-items: center;
+}
+.counter__box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.counter__amount {
+  color: #CDA274;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1.7px;
+}
+.counter__subcontent {
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.counter__vertLine {
+  height: 130px;
+  border: 1px solid #CDA274;
+}
+
+.blog {
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  align-items: center;
+}
+.blog__header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 780px;
+}
+.blog__headerTitle {
+  color: #292F36;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+}
+.blog__headerDescription {
+  color: #4D5053;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.blog__designs {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+.blog__borderBox {
+  border-radius: 62px;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+}
+.blog__content {
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.blog__design {
+  border-radius: 45px 45px 0px 0px;
+  background: #EAEAEA;
+}
+.blog__description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.blog__title {
+  color: #292F36;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0.5px;
+}
+.blog__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */

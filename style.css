@@ -422,4 +422,35 @@ body {
   font-weight: 400;
   line-height: 300%;
   letter-spacing: 0.22px;
+}
+
+.poster {
+  background-image: url(imgs/blog/Banner.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 111px;
+}
+.poster__intro {
+  background-color: #FFF;
+  border-radius: 37px 37px 0 0;
+  padding: 25px 38px;
+  text-align: center;
+}
+.poster__title {
+  color: #292F36;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+.poster__text {
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
 }/*# sourceMappingURL=style.css.map */

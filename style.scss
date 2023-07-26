@@ -423,3 +423,34 @@ body {
         letter-spacing: 0.22px;
     }
 }
+
+.poster {
+    background-image: url(imgs/blog/Banner.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 111px;
+    &__intro {
+        background-color: $whiteColor;
+        border-radius: 37px 37px 0 0;
+        padding: 25px 38px;
+        text-align: center;
+    }
+    &__title {
+        color: $blackSiteColor;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+    }
+    &__text {
+        color: $grayColor;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+}

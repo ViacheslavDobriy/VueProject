@@ -245,6 +245,7 @@
 
 .blog {
   padding-top: 96px;
+  padding-bottom: 96px;
   display: flex;
   flex-direction: column;
   gap: 52px;
@@ -312,4 +313,80 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 134px;
+  width: -webkit-fill-available;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  width: 282px;
+}
+.footer__block_center {
+  text-align: center;
+  width: -moz-min-content;
+  width: min-content;
+}
+.footer__logoBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+}
+.footer__title {
+  color: #292F36;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  padding-bottom: 18px;
+}
+.footer__text {
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 54px;
+  padding-top: 31px;
+}
+.footer__sub-title {
+  color: #292F36;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  padding-bottom: 9px;
+}
+.footer__sub-title_contact {
+  padding-bottom: 26px;
+}
+.footer__link {
+  text-decoration: none;
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 300%;
+  letter-spacing: 0.22px;
+}
+.footer__high-text {
+  color: #4D5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 300%;
+  letter-spacing: 0.22px;
 }/*# sourceMappingURL=style.css.map */

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .center {
   padding-left: 18.75%;
   padding-right: 18.75%;
@@ -59,6 +63,7 @@
   display: flex;
   align-items: center;
   background-size: cover;
+  border-radius: 50px;
 }
 .banner__intro {
   display: flex;
@@ -113,6 +118,7 @@
   gap: 93px;
   padding-top: 96px;
   padding-bottom: 96px;
+  max-width: -webkit-fill-available;
 }
 .project__header {
   display: flex;
@@ -148,6 +154,7 @@
   display: flex;
   flex-direction: row;
   gap: 104px;
+  max-width: 813.125px;
 }
 .project__product {
   display: flex;
@@ -155,7 +162,7 @@
   gap: 24px;
 }
 .project__productPhoto {
-  width: 398px;
+  max-width: 356.5625px;
 }
 .project__details {
   display: flex;
@@ -279,11 +286,16 @@
   display: flex;
   flex-direction: row;
   gap: 27px;
+  max-width: 813.125px;
 }
 .blog__borderBox {
   border-radius: 62px;
   border: 1px solid #E7E7E7;
   box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+  transition: 0.5s;
+}
+.blog__borderBox:hover {
+  background-color: #E7E7E7;
 }
 .blog__content {
   padding: 21px;
@@ -291,9 +303,30 @@
   flex-direction: column;
   gap: 21px;
 }
+.blog__photo-box {
+  position: relative;
+}
 .blog__design {
   border-radius: 45px 45px 0px 0px;
   background: #EAEAEA;
+  width: 211px;
+}
+.blog__label {
+  position: absolute;
+  background-color: #FFF;
+  padding: 4px 5px 8px 11px;
+  bottom: 20px;
+  left: 15px;
+  border-radius: 8px 8px 8px 0px;
+}
+.blog__label-text {
+  color: #4D5053;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
 }
 .blog__description {
   display: flex;

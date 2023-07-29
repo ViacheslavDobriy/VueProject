@@ -521,4 +521,39 @@ body {
   line-height: 150%;
   letter-spacing: 0.16px;
   text-transform: capitalize;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  width: -webkit-fill-available;
+}
+.news__title {
+  color: #292F36;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.news__designs-box {
+  display: grid;
+  grid-template-columns: repeat(3, 255px);
+  gap: 27px;
+}
+.news__pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 51px;
+  padding-bottom: 200px;
+}
+.news__link:hover svg {
+  fill: #F4F0EC;
+}
+.news__link:hover svg circle {
+  stroke: none;
 }/*# sourceMappingURL=style.css.map */

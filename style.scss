@@ -1,4 +1,5 @@
 @import 'vars';
+
 * {
     margin: 0;
     padding: 0;
@@ -27,12 +28,14 @@ body {
     width: -webkit-fill-available;
     padding-top: 50px;
     padding-bottom: 57px;
+
     &__logoBox {
         display: flex;
         flex-direction: row;
         gap: 10px;
         align-items: center;
     }
+
     &__title {
         font-size: 40px;
         font-style: normal;
@@ -40,12 +43,14 @@ body {
         line-height: 125%;
         color: $blackSiteColor;
     }
+
     &__menuBar {
         display: flex;
         flex-direction: row;
         gap: 30px;
         align-items: center;
     }
+
     &__link {
         text-decoration: none;
         color: $blackSiteColor;
@@ -65,18 +70,21 @@ body {
     align-items: center;
     background-size: cover;
     border-radius: 50px;
+
     &__intro {
         display: flex;
         flex-direction: column;
         gap: 21px;
         padding: 113px 30vw 113px 2.7vw;
     }
+
     &__content {
         display: flex;
         flex-direction: column;
         gap: 18px;
         justify-content: left;
     }
+
     &__title {
         color: $blackSiteColor;
         font-size: 65px;
@@ -84,6 +92,7 @@ body {
         font-weight: 400;
         line-height: 125%;
     }
+
     &__text {
         color: $grayColor;
         font-size: 22px;
@@ -92,6 +101,7 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__button {
         border: none;
         border-radius: 18px;
@@ -120,6 +130,7 @@ body {
     padding-top: 96px;
     padding-bottom: 96px;
     max-width: -webkit-fill-available;
+
     &__header {
         display: flex;
         flex-direction: column;
@@ -127,6 +138,7 @@ body {
         width: 700px;
         align-self: center;
     }
+
     &__title {
         color: $blackSiteColor;
         text-align: center;
@@ -136,6 +148,7 @@ body {
         line-height: 125%;
         letter-spacing: 1px;
     }
+
     &__description {
         color: $grayColor;
         text-align: center;
@@ -145,36 +158,43 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__options {
         display: flex;
         flex-direction: column;
         gap: 56px;
     }
+
     &__productLine {
         display: flex;
         flex-direction: row;
         gap: 104px;
         max-width: $centerWidth;
     }
+
     &__product {
         display: flex;
         flex-direction: column;
         gap: 24px;
     }
+
     &__productPhoto {
         max-width: 356.5625px;
     }
+
     &__details {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
+
     &__productText {
         display: flex;
         flex-direction: column;
         gap: 4px;
     }
+
     &__productTitle {
         color: $blackSiteColor;
         font-size: 25px;
@@ -183,6 +203,7 @@ body {
         line-height: 125%;
         letter-spacing: 0.5px;
     }
+
     &__productDescription {
         color: $grayColor;
         font-size: 22px;
@@ -215,6 +236,7 @@ body {
     align-items: center;
     background-color: $lightGoldSiteColor;
     width: 100vw;
+
     &__content {
         padding-top: 151px;
         padding-bottom: 151px;
@@ -224,11 +246,13 @@ body {
         text-align: center;
         align-items: center;
     }
+
     &__box {
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
+
     &__amount {
         color: $goldSiteColor;
         font-size: 85px;
@@ -237,6 +261,7 @@ body {
         line-height: 125%;
         letter-spacing: 1.7px;
     }
+
     &__subcontent {
         color: $grayColor;
         font-size: 22px;
@@ -245,6 +270,7 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__vertLine {
         height: 130px;
         border: 1px solid $goldSiteColor;
@@ -258,12 +284,14 @@ body {
     flex-direction: column;
     gap: 52px;
     align-items: center;
+
     &__header {
         display: flex;
         flex-direction: column;
         gap: 12px;
         width: 780px;
     }
+
     &__headerTitle {
         color: $blackSiteColor;
         text-align: center;
@@ -273,6 +301,7 @@ body {
         line-height: 125%;
         letter-spacing: 1px;
     }
+
     &__headerDescription {
         color: $grayColor;
         text-align: center;
@@ -282,35 +311,42 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__designs {
         display: flex;
         flex-direction: row;
         gap: 27px;
         max-width: $centerWidth;
     }
+
     &__borderBox {
         border-radius: 62px;
         border: 1px solid #E7E7E7;
         box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
         transition: 0.5s;
+
         &:hover {
             background-color: #E7E7E7;
         }
     }
+
     &__content {
         padding: 21px;
         display: flex;
         flex-direction: column;
         gap: 21px;
     }
+
     &__photo-box {
         position: relative;
     }
+
     &__design {
         border-radius: 45px 45px 0px 0px;
         background: #EAEAEA;
         width: 211px;
     }
+
     &__label {
         position: absolute;
         background-color: $whiteColor;
@@ -319,6 +355,7 @@ body {
         left: 15px;
         border-radius: 8px 8px 8px 0px;
     }
+
     &__label-text {
         color: $grayColor;
         font-size: 16px;
@@ -328,11 +365,13 @@ body {
         letter-spacing: 0.16px;
         text-transform: capitalize;
     }
+
     &__description {
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
+
     &__title {
         color: $blackSiteColor;
         font-size: 25px;
@@ -341,6 +380,7 @@ body {
         line-height: 125%;
         letter-spacing: 0.5px;
     }
+
     &__footer {
         display: flex;
         flex-direction: row;
@@ -356,21 +396,25 @@ body {
     justify-content: space-between;
     padding-bottom: 134px;
     width: -webkit-fill-available;
+
     &__block {
         display: flex;
         flex-direction: column;
         width: 282px;
+
         &_center {
             text-align: center;
             width: min-content;
         }
     }
+
     &__logoBox {
         display: flex;
         flex-direction: row;
         gap: 10px;
         align-items: baseline;
     }
+
     &__title {
         color: $blackSiteColor;
         font-size: 40px;
@@ -379,6 +423,7 @@ body {
         line-height: 125%;
         padding-bottom: 18px;
     }
+
     &__text {
         color: $grayColor;
         font-size: 22px;
@@ -387,6 +432,7 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__social {
         display: flex;
         flex-direction: row;
@@ -394,6 +440,7 @@ body {
         gap: 54px;
         padding-top: 31px;
     }
+
     &__sub-title {
         color: $blackSiteColor;
         font-size: 25px;
@@ -401,10 +448,12 @@ body {
         font-weight: 400;
         line-height: 125%;
         padding-bottom: 9px;
+
         &_contact {
             padding-bottom: 26px;
         }
     }
+
     &__link {
         text-decoration: none;
         color: $grayColor;
@@ -414,6 +463,7 @@ body {
         line-height: 300%;
         letter-spacing: 0.22px;
     }
+
     &__high-text {
         color: $grayColor;
         font-size: 22px;
@@ -432,12 +482,14 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 111px;
+
     &__intro {
         background-color: $whiteColor;
         border-radius: 37px 37px 0 0;
         padding: 25px 38px;
         text-align: center;
     }
+
     &__title {
         color: $blackSiteColor;
         font-size: 40px;
@@ -445,6 +497,7 @@ body {
         font-weight: 400;
         line-height: 125%;
     }
+
     &__text {
         color: $grayColor;
         font-size: 22px;
@@ -460,6 +513,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 27px;
+
     &__title {
         color: $blackSiteColor;
         font-size: 50px;
@@ -468,6 +522,7 @@ body {
         line-height: 125%;
         letter-spacing: 1px;
     }
+
     &__content {
         display: flex;
         flex-direction: row;
@@ -477,10 +532,12 @@ body {
         border: 1px solid #E7E7E7;
         box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
     }
+
     &__image {
         border-radius: 50px;
         width: 50%;
     }
+
     &__description {
         display: flex;
         flex-direction: column;
@@ -488,6 +545,7 @@ body {
         padding-bottom: 50px;
         justify-content: flex-start;
     }
+
     &__subtitle {
         color: $blackSiteColor;
         font-size: 25px;
@@ -497,6 +555,7 @@ body {
         letter-spacing: 0.5px;
         padding-bottom: 22px;
     }
+
     &__text {
         color: $grayColor;
         font-size: 22px;
@@ -505,6 +564,7 @@ body {
         line-height: 150%;
         letter-spacing: 0.22px;
     }
+
     &__footer {
         display: flex;
         flex-direction: row;
@@ -512,6 +572,7 @@ body {
         align-items: center;
         padding-top: 41px;
     }
+
     &__date {
         color: $grayColor;
         font-size: 16px;
@@ -528,6 +589,7 @@ body {
     flex-direction: column;
     padding-top: 150px;
     width: -webkit-fill-available;
+
     &__title {
         color: $blackSiteColor;
         font-size: 50px;
@@ -537,11 +599,13 @@ body {
         letter-spacing: 1px;
         padding-bottom: 30px;
     }
+
     &__designs-box {
         display: grid;
         grid-template-columns: repeat(3, 255px);
         gap: 27px;
     }
+
     &__pagination {
         display: flex;
         flex-direction: row;
@@ -550,10 +614,212 @@ body {
         padding-top: 51px;
         padding-bottom: 200px;
     }
+
     &__link:hover svg {
         fill: $lightGoldSiteColor;
     }
+
     &__link:hover svg circle {
         stroke: none;
+    }
+}
+
+.details-poster {
+    background-image: url(imgs/blog/banner-details.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 218px;
+    padding-bottom: 200px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 52px;
+    padding-bottom: 96px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        grid-column: span 2;
+
+        &_first {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_second {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        color: $blackSiteColor;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    &__subContent {
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+        padding-bottom: 48px;
+    }
+
+    &__image {
+        border-radius: 50px;
+
+        &_withPadding {
+            padding-bottom: 35px;
+        }
+    }
+
+    &__dateBreadcrumbsBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__date {
+        color: $grayColor;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        text-transform: capitalize;
+    }
+
+    &__breadcrumbs {
+        padding-right: 90px;
+    }
+
+    &__breadcrumb {
+        text-decoration: none;
+        color: $grayColor;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.16px;
+        text-transform: capitalize;
+    }
+
+    &__textBox {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__text {
+        color: $grayColor;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+
+    &__quotesBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 53px 227px;
+        gap: 10px;
+        background-color: $lightGoldSiteColor;
+        border-radius: 50px;
+    }
+
+    &__quote {
+        color: $goldSiteColor;
+        text-align: center;
+        font-size: 200px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 4px;
+        margin-bottom: -90px;
+    }
+
+    &__quoteText {
+        color: $goldSiteColor;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.5px;
+    }
+
+    &__points {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 24px;
+        list-style-position: inside;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.4px;
+        padding-bottom: 44px;
+    }
+
+    &__point {
+        color: $goldSiteColor;
+    }
+}
+
+.blackColorText {
+    color: $grayColor;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__title {
+        color: $blackSiteColor;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.5px;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__button {
+        color: $blackSiteColor;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.36px;
+        padding: 9px 15px;
+        border-radius: 10px;
+        border: none;
+        background-color: $lightGoldSiteColor;
+        transition: 0.5s;
+
+        &:hover {
+            color: $whiteColor;
+            background-color: #292F36;
+        }
     }
 }

@@ -467,7 +467,7 @@ body {
 
     &__text {
         letter-spacing: 0.22px;
-        @include setterFontStyle('DM Serif Display', 22px, 150%, $grayColor);
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__footer {
@@ -569,8 +569,8 @@ body {
     &__image {
         border-radius: 50px;
 
-        &_withPadding {
-            padding-bottom: 35px;
+        &_withMargin {
+            margin-bottom: 35px;
         }
     }
 

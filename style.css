@@ -480,7 +480,7 @@ body {
 }
 .last-post__text {
   letter-spacing: 0.22px;
-  font-family: "DM Serif Display";
+  font-family: "Jost";
   font-size: 22px;
   line-height: 150%;
   color: #4D5053;
@@ -581,8 +581,8 @@ body {
 .details__image {
   border-radius: 50px;
 }
-.details__image_withPadding {
-  padding-bottom: 35px;
+.details__image_withMargin {
+  margin-bottom: 35px;
 }
 .details__dateBreadcrumbsBox {
   display: flex;

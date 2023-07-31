@@ -1,4 +1,5 @@
 @import 'vars';
+@import 'mixins';
 
 * {
     margin: 0;
@@ -37,11 +38,7 @@ body {
     }
 
     &__title {
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
-        color: $blackSiteColor;
+        @include setterFontStyle('DM Serif Display', 40px, 125%, $blackSiteColor);
     }
 
     &__menuBar {
@@ -53,12 +50,10 @@ body {
 
     &__link {
         text-decoration: none;
-        color: $blackSiteColor;
         text-align: center;
-        font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 125%;
+        @include setterFontStyle('Jost', 20px, 125%, $blackSiteColor);
     }
 }
 
@@ -86,20 +81,13 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 65px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
+        @include setterFontStyle('DM Serif Display', 65px, 125%, $blackSiteColor);
     }
 
     &__text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__button {
@@ -107,12 +95,8 @@ body {
         border-radius: 18px;
         background: $blackSiteColor;
         box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
-        color: $whiteColor;
         text-align: center;
-        font-size: 18px;
-        font-style: normal;
         font-weight: 600;
-        line-height: 125%;
         letter-spacing: 0.36px;
         padding: 26px 48px;
         display: flex;
@@ -120,6 +104,7 @@ body {
         width: -webkit-fit-content;
         gap: 10px;
         align-items: center;
+        @include setterFontStyle('Jost', 18px, 125%, $whiteColor);
     }
 }
 
@@ -140,23 +125,15 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
         text-align: center;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
     }
 
     &__description {
-        color: $grayColor;
         text-align: center;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__options {
@@ -196,21 +173,13 @@ body {
     }
 
     &__productTitle {
-        color: $blackSiteColor;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.5px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
     }
 
     &__productDescription {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 }
 
@@ -254,21 +223,13 @@ body {
     }
 
     &__amount {
-        color: $goldSiteColor;
-        font-size: 85px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1.7px;
+        @include setterFontStyle('DM Serif Display', 85px, 125%, $goldSiteColor);
     }
 
     &__subcontent {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__vertLine {
@@ -293,23 +254,15 @@ body {
     }
 
     &__headerTitle {
-        color: $blackSiteColor;
         text-align: center;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
     }
 
     &__headerDescription {
-        color: $grayColor;
         text-align: center;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__designs {
@@ -357,13 +310,9 @@ body {
     }
 
     &__label-text {
-        color: $grayColor;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.16px;
         text-transform: capitalize;
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
     }
 
     &__description {
@@ -373,12 +322,8 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.5px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
     }
 
     &__footer {
@@ -416,21 +361,13 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         padding-bottom: 18px;
+        @include setterFontStyle('DM Serif Display', 40px, 125%, $blackSiteColor);
     }
 
     &__text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__social {
@@ -442,12 +379,8 @@ body {
     }
 
     &__sub-title {
-        color: $blackSiteColor;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         padding-bottom: 9px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
 
         &_contact {
             padding-bottom: 26px;
@@ -456,21 +389,13 @@ body {
 
     &__link {
         text-decoration: none;
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 300%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 300%, $grayColor);
     }
 
     &__high-text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 300%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('DM Serif Display', 22px, 300%, $grayColor);
     }
 }
 
@@ -491,20 +416,12 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
+        @include setterFontStyle('DM Serif Display', 40px, 125%, $blackSiteColor);
     }
 
     &__text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 }
 
@@ -515,12 +432,8 @@ body {
     gap: 27px;
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
     }
 
     &__content {
@@ -547,22 +460,14 @@ body {
     }
 
     &__subtitle {
-        color: $blackSiteColor;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.5px;
         padding-bottom: 22px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
     }
 
     &__text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('DM Serif Display', 22px, 150%, $grayColor);
     }
 
     &__footer {
@@ -574,13 +479,9 @@ body {
     }
 
     &__date {
-        color: $grayColor;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.16px;
         text-transform: capitalize;
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
     }
 }
 
@@ -591,13 +492,9 @@ body {
     width: -webkit-fill-available;
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1px;
         padding-bottom: 30px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
     }
 
     &__designs-box {
@@ -657,13 +554,9 @@ body {
     }
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 1px;
         padding-bottom: 20px;
+        @include setterFontStyle('DM Serif Display', 44px, 125%, $blackSiteColor);
     }
 
     &__subContent {
@@ -688,13 +581,9 @@ body {
     }
 
     &__date {
-        color: $grayColor;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.16px;
         text-transform: capitalize;
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
     }
 
     &__breadcrumbs {
@@ -703,13 +592,9 @@ body {
 
     &__breadcrumb {
         text-decoration: none;
-        color: $grayColor;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.16px;
         text-transform: capitalize;
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
     }
 
     &__textBox {
@@ -719,12 +604,8 @@ body {
     }
 
     &__text {
-        color: $grayColor;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
         letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
 
     &__quotesBox {
@@ -732,31 +613,25 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 53px 227px;
+        padding: 53px 120px;
         gap: 10px;
         background-color: $lightGoldSiteColor;
         border-radius: 50px;
     }
 
     &__quote {
-        color: $goldSiteColor;
         text-align: center;
-        font-size: 200px;
         font-style: italic;
-        font-weight: 400;
-        line-height: 100%;
         letter-spacing: 4px;
         margin-bottom: -90px;
+        @include setterFontStyle('DM Serif Display', 200px, 125%, $goldSiteColor);
     }
 
     &__quoteText {
-        color: $goldSiteColor;
         text-align: center;
-        font-size: 25px;
         font-style: italic;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.5px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $goldSiteColor);
     }
 
     &__points {
@@ -788,12 +663,8 @@ body {
     gap: 24px;
 
     &__title {
-        color: $blackSiteColor;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.5px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
     }
 
     &__buttons {
@@ -804,17 +675,14 @@ body {
     }
 
     &__button {
-        color: $blackSiteColor;
+        @include setterFontStyle('Jost', 14px, 125%, $blackSiteColor);
         text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
         letter-spacing: 0.36px;
-        padding: 9px 15px;
+        padding: 9px 17px;
         border-radius: 10px;
         border: none;
         background-color: $lightGoldSiteColor;
+        cursor: pointer;
         transition: 0.5s;
 
         &:hover {

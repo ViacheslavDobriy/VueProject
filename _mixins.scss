@@ -1,0 +1,6 @@
+@mixin setterFontStyle($font_family, $font_size, $line_height, $color) {
+    font-family: $font_family;
+    font-size: $font_size;
+    line-height: $line_height;
+    color: $color;
+};

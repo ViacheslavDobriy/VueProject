@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog details</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <script src="https://unpkg.com/vue@next"></script>
 </head>
 
@@ -29,7 +30,7 @@
         </header>
         <div class="details-poster"></div>
         <article id="app" class="details">
-            <div class="details__content">
+            <!-- <div class="details__content">
                 <div class="details__content_first">
                     <h1 class="details__title">Let’s Get Solution for Building
                         Construction Work</h1>
@@ -90,7 +91,8 @@
                     <button class="tags__button">Kitchen Planning</button>
                     <button class="tags__button">Bedroom</button>
                 </div>
-            </div>
+            </div> -->
+            <tags></tags>
         </article>
         <footer class="footer">
             <div class="footer__block">
@@ -131,6 +133,8 @@
             </div>
         </footer>
     </div>
+    <script src="components/tags.js"></script>
+    <script src="vueMain.js"></script>
 </body>
 
 </html>

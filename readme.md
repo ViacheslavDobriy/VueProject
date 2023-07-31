@@ -1,5 +1,4 @@
 # List to fix:
-* include fonts
-* use mixins
+* use mixins (flex blocks)
 * decrease weights of photos
-* on page blog-details do pixel perfect
+* add footer and header components (Vue)
